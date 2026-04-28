@@ -1,17 +1,30 @@
 # staffbase-demo-ui-project
 
-Staffbase向けのデモUI制作・提案資料作成を支援するためのプロジェクトです。
+Staffbase向けのデモUI制作と提案資料作成を支援するためのプロジェクトです。  
+提案時に必要な情報整理、参考資料の確認、成果物作成を一貫して進められるように構成しています。
 
-## Contents
+## プロジェクト構成
 
-- `SKILL.md`: Manus用スキル定義（YAML front matter付き）
-- `PROJECT_INSTRUCTION.md`: プロジェクト全体の実行ガイド
-- `references/`: 参照資料
-- `templates/`: 提案作成テンプレート
-- `sample_deliverables/`: 提出物サンプル
+- `PROJECT_INSTRUCTION.md`  
+  プロジェクト全体の進め方と運用ガイドです。
+- `SKILL.md`  
+  エージェント向けのスキル定義ファイルです。
+- `references/`  
+  ブランドやUI提案時に参照する資料を格納します。
+- `templates/`  
+  提案作成時に利用するテンプレートを格納します。
+- `sample_deliverables/`  
+  提出物サンプルや完成イメージを格納します。
 
-## Usage
+## 使い方
 
-1. `templates/` の各テンプレートを基に案件情報を整理する
-2. `references/` を参照してブランド方針を決める
-3. `sample_deliverables/` 形式で成果物を作成する
+1. `PROJECT_INSTRUCTION.md` を確認し、作業方針を把握します。
+2. `templates/` のテンプレートを使って要件や提案内容を整理します。
+3. 必要に応じて `references/` を参照し、トーンや方針を合わせます。
+4. `sample_deliverables/` を参考にしながら成果物を作成します。
+
+## 想定ユースケース
+
+- Staffbase向け提案資料のたたき台を素早く作る
+- デモUIの方向性を関係者に共有する
+- テンプレート運用で提案品質を標準化する
